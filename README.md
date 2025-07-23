@@ -38,9 +38,13 @@ From this graph, we can see that there is a positive relationship between surfac
 
 The reason there is a noticeable difference between my graph and the Hertzsprung–Russell diagram is that my data is on stars that have exoplanets discovered nearby. By comparing my graph with the HR diagram, we can see that most exoplanets have been discovered in the cooler part of the main sequence and some near giants. There seem to be very few exoplanets discovered near the hotter main-sequence stars. This could be due to the fact that hotter stars are generally bigger and more luminous. This makes the 2 most common exoplanet discovery methods harder to verify the existence of an exoplanet. The transit method that requires detecting a change in brightness will be less accurate if the change is minuscule. The radial velocity is less effective because the stars are many more factors larger than potential exoplanets, making the wobble less noticeable. 
 
+**Star Map**
 I also imported data from the HYG catalog and plotted it to make my own makeshift star map!
 
+**Game of Nim**
+I also coded the game of Nim. I added a bot to fight against the player. The bot knows multiple endgame positions to guarantee its win, but it struggles to bridge the early game to endgame. Try to beat the bot!
 
-Aside from the astronomy data analysis, I also coded the game Nim. I added a bot to fight against the player. The bot knows multiple endgame positions to guarantee its win, but it does not play perfectly. Try to beat the bot!
+**Text-Based Adventure Game**
+I also coded a little RPG game.  
 
 Thanks for listening to my lil rant!
