@@ -832,7 +832,7 @@ def battle_dragon(party_stats,money, holypower):
                 return money, holypower, death 
             else:
                 chance = random.randint(1,100)
-                if (turn*2) > chance: # checks if dragon crits
+                if (turn*2) >= chance: # checks if dragon crits
                     tempdmg = monster_stat[1]
                     print("The Dragon landed a crit!!!")
                 else:
@@ -840,6 +840,7 @@ def battle_dragon(party_stats,money, holypower):
                 if tempdmg < 0:
                     tempdmg = 0 # to prevent healing the party if the monster does too little dmg
                 temp_hp -= tempdmg 
+
                 if (turn*2) < chance: # if it doesn't crit, then the party cannot heal
                     if (temp_hp + temp_party_stats[0] * party_stats["Regen"]) > 0:
                         temp_hp = temp_party_stats[0]
